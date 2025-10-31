@@ -92,9 +92,10 @@ def generate_achievement_summary(player_name, game_mode, missions_completed, dif
     print(f"Practice Mode Needed: {'Yes' if training_needed else 'No'}")
     
 
-
+print("\n")
 generate_achievement_summary("Phoenix", "campaign", 45, "hard", 3, 800, 1150, 3)
-
+print("\n")
 generate_achievement_summary("Storm", "multiplayer", 60, "normal", 5, 900, 1300, 5)
-
+print("\n")
 generate_achievement_summary("Echo", "tutorial", 30, "easy", 8, 850, 950, 7)
+
